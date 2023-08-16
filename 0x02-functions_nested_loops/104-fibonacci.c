@@ -10,7 +10,7 @@ int main(void)
 {
 	int count;
 	unsigned long int m1 = 0, m2 = 1, sum;
-	unsigned long int m1_half1, m1_half2, m2_half1, m2_hlf2;
+	unsigned long int m1_half1, m1_half2, m2_half1, m2_half2;
 	unsigned long int half1, half2;
 
 for (count = 0; count < 92; count++)
@@ -31,7 +31,7 @@ half2 = m1_half2 + m2_half2;
 if (m1_half2 + m2_half2 > 9999999999)
 {
 half1 += 1;
-half 2 %= 10000000000;
+half2 %= 10000000000;
 }
 printf("%lu%lu", half1, half2);
 if (count != 98)
