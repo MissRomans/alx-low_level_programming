@@ -19,7 +19,7 @@ int main(void)
 	printf(", %ld", c);
 	else
 	{
-	c <= b;
+	c += b;
 	b  = c - b;
 	printf(", %ld", c);
 	}
