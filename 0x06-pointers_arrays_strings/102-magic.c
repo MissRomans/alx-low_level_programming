@@ -20,7 +20,6 @@ int main(void)
  * -Not allowed to use the variable a
  * -Not allowed to modify the variable p
  * -Only write one statement
- * -Not allowed to use ,
  * -Not allowed to code anything else than the expected line of code
  */
 	*(p + 5) = 98;
